@@ -12,8 +12,9 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd
    ">
 
-	<context:component-scan
-		base-package="com.dgr.onlineshopping.controller"></context:component-scan>
+	<context:component-scan base-package="com.dgr.onlineshopping.controller"></context:component-scan>
+	<context:component-scan base-package="com.dgr.shoppingbackend.daoimpl"></context:component-scan>
+		
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
